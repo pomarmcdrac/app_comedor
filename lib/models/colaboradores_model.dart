@@ -41,6 +41,7 @@ class SdtColaboradore {
         required this.colaboradoresUbicacionBase,
     });
 
+
     factory SdtColaboradore.fromJson(String str) => SdtColaboradore.fromMap(json.decode(str));
 
     String toJson() => json.encode(toMap());
